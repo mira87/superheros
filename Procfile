@@ -1,1 +1,1 @@
-web: gunicorn practiceapp.wsgi
+web: gunicorn practice_django.wsgi
