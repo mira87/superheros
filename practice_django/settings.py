@@ -76,13 +76,7 @@ WSGI_APPLICATION = 'practice_django.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'practiceapp',
-        'USER': 'practiceuser',
-        'PASSWORD': 'practice',
-        'HOST': 'localhost'
-    }
+    'default': os.environ.get('DATABASE_URL')
 }
 
 
