@@ -25,6 +25,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  left: 0;
 }
 
 nav a {
