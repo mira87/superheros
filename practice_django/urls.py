@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('practiceapp.urls')),
     path('', include('accounts.urls')),
+    path('/new', views.superhero_create name='superhero_create'),
 ]

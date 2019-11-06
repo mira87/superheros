@@ -1,0 +1,10 @@
+<!-- tunr/templates/tunr/artist_form.html -->
+{% extends 'tunr/base.html' %} {% block content %}
+<div class="hero_container">
+  <h1>New Superhero</h1>
+  <form method="POST" class="artist-form">
+    {% csrf_token %} {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Save</button>
+  </form>
+</div>
+{% endblock %}
