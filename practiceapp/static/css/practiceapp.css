@@ -17,5 +17,9 @@ img {
 header {
   background: #333;
   color: #fff;
-  float: left;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  min-height: 57px;
+  padding: 1em;
 }
