@@ -24,8 +24,6 @@ header {
   min-height: 57px;
   padding: 1em;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   left: 0;
 }
 
