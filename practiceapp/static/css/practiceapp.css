@@ -45,9 +45,6 @@ nav {
 }
 
 body {
-  background: #ff00ff;
   background-image: url("https://essencedotcom.wpengine.com/wp-content/uploads/2019/02/background-pattern.png");
-  filter: grayscale(80%);
-  -webkit-filter: grayscale(80%);
   background-repeat: repeat;
 }
