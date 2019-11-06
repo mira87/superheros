@@ -30,9 +30,12 @@ header {
 nav a {
   text-decoration: none;
   color: #fff;
-  float: left;
 }
 
 nav a:hover {
   text-decoration: underline #ff00ff;
+}
+
+nav {
+  float: left;
 }
