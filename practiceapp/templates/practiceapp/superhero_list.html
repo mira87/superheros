@@ -1,0 +1,7 @@
+{% extends 'practiceapp/base.html' %} {% block content %} {% for hero in heros%}
+
+<a href="{% url 'superhero_detail' pk=hero.id %}">
+  <img src="{{ hero.photo_url }}"
+/></a>
+
+{% endfor%} {%endblock%}
