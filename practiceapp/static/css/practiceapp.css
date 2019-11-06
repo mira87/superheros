@@ -39,3 +39,7 @@ nav a:hover {
 nav {
   float: left;
 }
+
+body {
+  background-image: url("https://essencedotcom.wpengine.com/wp-content/uploads/2019/02/background-pattern.png");
+}
