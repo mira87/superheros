@@ -1,26 +1,26 @@
 {% extends 'practiceapp/base.html' %} {% block content %}
+<div class="hero_container">
+  <h1>{{ hero.superhero_name }}</h1>
+  <img src="{{ hero.photo_url }}" />
+  <h2>Real Name</h2>
+  <p>{{ hero.real_name }}</p>
 
-<h1>{{ hero.superhero_name }}</h1>
-<img src="{{ hero.photo_url }}" />
-<h2>Real Name</h2>
-<p>{{ hero.real_name }}</p>
+  <h2>Birthplace:</h2>
+  <p>{{ hero.place_of_birth }}</p>
 
-<h2>Birthplace:</h2>
-<p>{{ hero.place_of_birth }}</p>
+  <h2>Super Powers</h2>
+  <p>{{ hero.superpowers }}</p>
 
-<h2>Super Powers</h2>
-<p>{{ hero.superpowers }}</p>
+  <h2>Group Affiliations:</h2>
+  <p>{{ hero.group_affiliation }}</p>
 
-<h2>Group Affiliations:</h2>
-<p>{{ hero.group_affiliation }}</p>
+  <h2>Relatives:</h2>
+  <p>{{ hero.relatives }}</p>
 
-<h2>Relatives:</h2>
-<p>{{ hero.relatives }}</p>
+  <h2>First Appearance</h2>
+  <p>{{ first_appear }}</p>
 
-<h2>First Appearance</h2>
-<p>{{ first_appear }}</p>
-
-<h2>Publisher</h2>
-<p>{{ hero.publisher }}</p>
-
+  <h2>Publisher</h2>
+  <p>{{ hero.publisher }}</p>
+</div>
 {%endblock%}
