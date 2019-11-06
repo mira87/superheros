@@ -38,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'practiceapp'
+    'practiceapp',
+    'accounts',
 ]
+
+LOGIN_REDIRECT_URL = '/' 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

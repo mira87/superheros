@@ -16,7 +16,12 @@
         <h1>SuperHeros</h1>
         <nav>
           <a href="/">Home</a> |
-          <a>Log In</a>
+          <div class="user-info">
+              {% if user.is_authenticated %} Welcome, {{ user.username }}
+              <a href="{% url 'logout' %}">Log out</a>
+              {% else %}
+              <a href="{% url 'login' %}">Login</a>
+              {% endif %}
         </nav>
       </header>
       {% block content %} {% endblock %}
