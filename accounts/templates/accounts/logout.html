@@ -1,5 +1,7 @@
 <!-- accounts/templates/accounts/logout.html -->
 {% extends 'practiceapp/base.html' %} {% block content %}
-<p>Logged out!</p>
-<a href="{% url 'login' %}">Click here to login again.</a>
+<div class="hero_detail_container">
+  <p>Logged out!</p>
+  <a href="{% url 'login' %}">Click here to login again.</a>
+</div>
 {% endblock %}

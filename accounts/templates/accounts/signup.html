@@ -1,9 +1,9 @@
 {% extends "practiceapp/base.html" %} {% block content %}
+<div class="hero_detail_container">
+  <form method="post" action="{% url 'signup' %}">
+    {% csrf_token %} {{ form.as_p }}
 
-<form method="post" action="{% url 'signup' %}">
-  {% csrf_token %} {{ form.as_p }}
-
-  <input type="submit" value="Sign Up" />
-</form>
-
+    <input type="submit" value="Sign Up" />
+  </form>
+</div>
 {% endblock %}
