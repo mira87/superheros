@@ -34,3 +34,7 @@ def superhero_edit(request, pk):
     else:
         form = SuperheroForm(instance=hero)
     return render(request, 'practiceapp/superhero_form.html', {'form': form})
+
+def superhero_delete(request,pk):
+    SuperHero.objects.get(id=pk).delete()
+    return redirect('superhero_list')
