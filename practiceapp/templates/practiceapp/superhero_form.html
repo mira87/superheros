@@ -1,16 +1,28 @@
-<!-- tunr/templates/tunr/artist_form.html -->
-{% extends 'practiceapp/base.html' %} {% block content %} {% load
-crispy_forms_tags %}
-
+<!-- tunr/templates/tunr/artist_form.html
+{% extends 'practiceapp/base.html' %} {% block content %}
 <div class="hero_container add_form">
-  <!-- <h1>New Superhero</h1> -->
+  <h1>New Superhero</h1>
   <form method="POST" class="artist-form">
     {% csrf_token %}
-    <!-- {{ form.as_p }} -->
-    <!-- {{ form }} -->
-    {% crispy form %}
+    {{ form.as_p }}
+    {{ form }}
 
     <button type="submit" class="save btn btn-default">Save</button>
+  </form>
+</div>
+{% endblock %} -->
+
+{% load bootstrap %} {% extends 'practiceapp/base.html' %} {% block content %}
+<div class="hero_container add_form">
+  <form method="POST" class="form-horizontal">
+    <legend>Form Title</legend>
+    {% csrf_token %}
+    {{ form | bootstrap_horizontal }}
+    <div class="form-group">
+      <div class="col-sm-10 col-sm-offset-2">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
   </form>
 </div>
 {% endblock %}

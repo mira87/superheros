@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'practiceapp',
     'accounts',
-    'crispy_forms',
+    'bootstrapform',
 ]
 
 LOGIN_REDIRECT_URL = '/' 
