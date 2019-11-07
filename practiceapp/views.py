@@ -25,7 +25,7 @@ def superhero_create(request):
 
 
 def superhero_edit(request, pk):
-    hero = SuperHero.objects.get(pk=pk)
+    hero = SuperHero.objects.get(id=pk)
     if request.method == "POST":
         form = SuperheroForm(request.POST, instance=hero)
         if form.is_valid():
