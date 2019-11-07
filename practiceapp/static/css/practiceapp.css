@@ -87,9 +87,9 @@ body {
 
 @keyframes move {
   from {
-    transform: translateX(0);
+    transform: translateX(-100px);
   }
   to {
-    transform: translateX(1400px);
+    transform: translateX(0px);
   }
 }
