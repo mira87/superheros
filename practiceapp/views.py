@@ -24,13 +24,13 @@ def superhero_create(request):
 
 
 
-# def superhero_edit(request, pk):
-#     hero = SuperHero.objects.get(pk=pk)
-#     if request.method == "POST":
-#         form = SuperheroForm(request.POST, instance=hero)
-#         if form.is_valid():
-#             hero = form.save()
-#             return redirect('superhero_detail', pk=hero.pk)
-#     else:
-#         form = SuperheroForm(instance=hero)
-#     return render(request, 'practiceapp/superhero_form.html', {'form': form})
+def superhero_edit(request, pk):
+    hero = SuperHero.objects.get(pk=pk)
+    if request.method == "POST":
+        form = SuperheroForm(request.POST, instance=hero)
+        if form.is_valid():
+            hero = form.save()
+            return redirect('superhero_detail', pk=hero.pk)
+    else:
+        form = SuperheroForm(instance=hero)
+    return render(request, 'practiceapp/superhero_form.html', {'form': form})
