@@ -26,6 +26,10 @@ SECRET_KEY = 'q9@#%(y%3@oi#lz-4js0!3$hd0iip2%xa1d^6c-n0uwh@o2(&4'
 
 SOCIAL_AUTH_GITHUB_KEY = '73527f798d5f62cf4dc8'
 SOCIAL_AUTH_GITHUB_SECRET = '1a0dee6e2188fe01618f99ada28c0c960f058ef3'
+
+SOCIAL_AUTH_TWITTER_KEY = 'uuP7tI05V299Ut0KvGqIYBZot'
+
+SOCIAL_AUTH_TWITTER_SECRET = 'UGagSFJ2WL8Tq1opTHvmqgKCRBWXKMofzkHis4ZGdmdnm2Eq2P'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
