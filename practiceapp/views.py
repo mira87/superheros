@@ -33,4 +33,4 @@ def superhero_edit(request, pk):
             return redirect('superhero_detail', pk=hero.pk)
     else:
         form = SuperheroForm(instance=hero)
-    return render(request, 'practiceapp/superhero_form.html', {'form': form}))
+    return render(request, 'practiceapp/superhero_form.html', {'form': form})
