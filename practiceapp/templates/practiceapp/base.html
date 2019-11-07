@@ -7,10 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
     <title>SuperHeros</title>
   </head>
   <body>
@@ -18,11 +15,15 @@
       <header>
         <h1>SuperHeros</h1>
         <nav>
-          <a href="/">Home</a> | {% if user.is_authenticated %} Welcome,
-          {{ user.username }} <a href="{% url 'logout' %}">Log out</a> | {% else
-          %} <a href="{% url 'login' %}">Login</a> |
-          <a href="{% url 'signup' %}">Signup</a>
-          {% endif %}
+            <div class="user-info">
+
+          <a href="/">Home</a> |
+              {% if user.is_authenticated %} Welcome, {{ user.username }}
+              <a href="{% url 'logout' %}">Log out</a> |
+              {% else %}
+              <a href="{% url 'login' %}">Login</a> |
+              <a href="{% url 'signup' %}">Signup</a>
+              {% endif %}
         </nav>
       </header>
       {% block content %} {% endblock %}
