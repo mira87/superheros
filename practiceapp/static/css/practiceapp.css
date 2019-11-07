@@ -22,8 +22,9 @@ header h1 {
   font-family: "Liu Jian Mao Cao", cursive;
   color: #ff00ff;
   margin: 12px auto;
-  width: 151px;
+  width: 200px;
   font-size: 2.2em;
+  text-align: center;
 }
 
 header {
