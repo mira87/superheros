@@ -8,7 +8,7 @@ class SuperheroForm(forms.ModelForm):
 
     class Meta:
         model=SuperHero
-        fields=('superhero_name','photo_url','real_name','place_of_birth','superpowers','occupation','group_affiliation','relatives','first_appear','publisher',)
+        fields=('superhero_name','real_name','publisher','photo_url','place_of_birth','superpowers','occupation','group_affiliation','relatives','first_appear',)
 
 
 
