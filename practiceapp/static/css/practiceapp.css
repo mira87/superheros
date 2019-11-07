@@ -65,3 +65,38 @@ body {
   padding: 6px;
   width: 70px;
 }
+
+.welcome {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+
+.welcome1 {
+  -webkit-transition-timing-function: linear;
+}
+.welcome2 {
+  -webkit-transition-timing-function: ease;
+}
+.welcome3 {
+  -webkit-transition-timing-function: ease-in;
+}
+.welcome4 {
+  -webkit-transition-timing-function: ease-out;
+}
+
+/* Standard syntax */
+.welcome1 {
+  transition-timing-function: linear;
+}
+.welcome2 {
+  transition-timing-function: ease;
+}
+.welcome3 {
+  transition-timing-function: ease-in;
+}
+.welcome4 {
+  transition-timing-function: ease-out;
+}
