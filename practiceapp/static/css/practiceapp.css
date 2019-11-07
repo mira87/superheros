@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: solid #ff00ff;
+  background: #ff00ff;
   font-size: 12px;
 }
 
