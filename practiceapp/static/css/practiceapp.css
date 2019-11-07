@@ -47,7 +47,7 @@ header {
 nav {
   margin: 0 auto;
   display: block;
-  width: 146px;
+  text-align: center;
 }
 
 nav a {
