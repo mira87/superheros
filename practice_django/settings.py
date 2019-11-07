@@ -40,9 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'practiceapp',
     'accounts',
+    'crispy_forms',
 ]
 
 LOGIN_REDIRECT_URL = '/' 
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
