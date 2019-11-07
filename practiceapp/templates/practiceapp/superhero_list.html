@@ -3,7 +3,7 @@
 <div class="hero_container">
   {% for hero in heros%}
   <a href="{% url 'superhero_detail' pk=hero.id %}">
-    <img src="{{ hero.photo_url }}"
+    <img class="list_img" src="{{ hero.photo_url }}"
   /></a>
   {% endfor%}
 </div>
