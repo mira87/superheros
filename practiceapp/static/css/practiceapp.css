@@ -96,8 +96,8 @@ body {
 
 @media (max-width: 430px) {
   .list_img {
-    max-width: 100%;
-    margin: 10px auto;
+    max-width: 50%;
+    margin: 20px auto;
     display: block;
     max-height: none;
   }
