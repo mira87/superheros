@@ -1,16 +1,3 @@
-<!-- tunr/templates/tunr/artist_form.html
-{% extends 'practiceapp/base.html' %} {% block content %}
-<div class="hero_container add_form">
-  <h1>New Superhero</h1>
-  <form method="POST" class="artist-form">
-    {% csrf_token %}
-    {{ form.as_p }}
-    {{ form }}
-
-    <button type="submit" class="save btn btn-default">Save</button>
-  </form>
-</div>
-{% endblock %} -->
 {% extends 'practiceapp/base.html' %} {% load bootstrap %}
 <div class="hero_container add_form">
   <form method="POST" class="form-horizontal">
