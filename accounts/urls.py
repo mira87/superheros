@@ -19,6 +19,7 @@ urlpatterns = [
      path('accounts/signup', views.sign_up, name="signup"), 
      url(r'^oauth/', include('social_django.urls', namespace='social')),  
 
+
 ]
 
 LOGIN_URL = 'login'
