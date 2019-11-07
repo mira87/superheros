@@ -18,14 +18,14 @@
   <p>{{ hero.relatives }}</p>
 
   <h2>First Appearance</h2>
-  <p>{{ first_appear }}</p>
+  <p>{{ hero.first_appear }}</p>
 
   <h2>Publisher</h2>
   <p>{{ hero.publisher }}</p>
 
   <h2>
     {{ hero.superhero_name }}
-    <a href="{% 'superhero_edit' pk=hero.pk%}">(Edit)</a>
+    <a href="{% url 'superhero_edit' pk=hero.pk %}">(edit)</a>
   </h2>
 </div>
 {%endblock%}
