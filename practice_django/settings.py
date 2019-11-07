@@ -79,7 +79,7 @@ AUTHENTICATION_BACKENDS = (
 
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'https://mysuperheros.herokuapp.com'
 
 
 TEMPLATES = [
