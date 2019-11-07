@@ -81,7 +81,7 @@ body {
   left: 0; */
   position: relative;
   animation-name: move;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-fill-mode: both;
 }
 
