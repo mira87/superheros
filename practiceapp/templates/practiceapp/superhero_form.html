@@ -1,7 +1,7 @@
 {% extends 'practiceapp/base.html' %} {% load bootstrap %} {% block content %}
 <div class="hero_container add_form">
   <form method="POST">
-    <legend>Form Title</legend>
+    <legend>Add Hero</legend>
     {% csrf_token %}
     {{ form | bootstrap }}
     <div class="form-group">
