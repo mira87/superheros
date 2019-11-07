@@ -93,3 +93,11 @@ body {
     transform: translateX(0px);
   }
 }
+
+@media (max-width: 430px) {
+  img {
+    max-width: 100%;
+    margin: 10px auto;
+    display: block;
+  }
+}
