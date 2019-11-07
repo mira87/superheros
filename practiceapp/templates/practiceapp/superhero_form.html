@@ -1,6 +1,6 @@
 <!-- tunr/templates/tunr/artist_form.html -->
 {% extends 'practiceapp/base.html' %} {% block content %}
-<div class="hero_container">
+<div class="hero_container add_form">
   <h1>New Superhero</h1>
   <form method="POST" class="artist-form">
     {% csrf_token %} {{ form.as_p }}
