@@ -18,13 +18,14 @@
             <div class="user-info">
 
           <a href="/">Home</a> |
+          <a href="https://mysuperheros.herokuapp.com/accounts/login/?next=/heros/new">Add Hero</a> |
               {% if user.is_authenticated %} Welcome, {{ user.username }}
               <a href="{% url 'logout' %}">Log out</a> |
               {% else %}
               <a href="{% url 'login' %}">Login</a> |
               <a href="{% url 'signup' %}">Signup</a>
               {% endif %}
-              <a href="https://mysuperheros.herokuapp.com/accounts/login/?next=/heros/new">Add Hero</a>
+              
 
         </nav>
       </header>
