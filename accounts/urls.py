@@ -4,6 +4,9 @@ from django.contrib.auth import views as auth_views
 
 from . import views
 
+from django.conf.urls import url, include
+
+
 urlpatterns = [
     # Login / Log Out
     path('accounts/login/',
@@ -14,4 +17,10 @@ urlpatterns = [
          name='logout'),
       # Sign Up
      path('accounts/signup', views.sign_up, name="signup"), 
+     url(r'^oauth/', include('social_django.urls', namespace='social')),  
+
 ]
+
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = '/'
