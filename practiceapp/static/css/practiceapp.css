@@ -18,6 +18,10 @@ img {
   max-height: 163px;
   margin: 5px;
 }
+header h1 {
+  font-family: "Liu Jian Mao Cao", cursive;
+  color: #ff00ff;
+}
 
 header {
   background: #333;
