@@ -58,3 +58,10 @@ body {
   background-image: url("https://essencedotcom.wpengine.com/wp-content/uploads/2019/02/background-pattern.png");
   background-repeat: repeat;
 }
+
+.save {
+  background: #ff00ff;
+  color: #fff;
+  padding: 6px;
+  width: 70px;
+}
