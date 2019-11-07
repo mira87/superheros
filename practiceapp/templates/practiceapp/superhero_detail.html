@@ -27,5 +27,10 @@
     {{ hero.superhero_name }}
     <a href="{% url 'superhero_edit' pk=hero.pk %}">(edit)</a>
   </h2>
+
+  <h2>
+    {{ hero.superhero_name }}
+    <a href="{% url 'superhero_delete' pk=hero.pk %}">(Delete)</a>
+  </h2>
 </div>
 {%endblock%}
