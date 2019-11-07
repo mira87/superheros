@@ -53,10 +53,6 @@ nav a:hover {
   text-decoration: underline #ff00ff;
 }
 
-nav {
-  float: left;
-}
-
 body {
   background-image: url("https://essencedotcom.wpengine.com/wp-content/uploads/2019/02/background-pattern.png");
   background-repeat: repeat;
