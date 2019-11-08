@@ -2,6 +2,11 @@
   width: 90%;
   margin: 0 auto;
   display: block;
+  background-image: linear-gradient(
+    to left,
+    rgba(2, 56, 89, 35),
+    rgba(4, 173, 191, 75)
+  );
 }
 
 .hero_container {
@@ -33,7 +38,13 @@ header h1 {
 }
 
 header {
-  background: #333;
+  background-image: linear-gradient(
+    to left,
+    rgba(140, 68, 4, 55),
+    rgba(242, 185, 136, 95),
+    rgba(140, 68, 4, 55)
+  );
+
   color: #fff;
   position: fixed;
   top: 0;
