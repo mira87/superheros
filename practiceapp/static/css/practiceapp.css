@@ -15,7 +15,7 @@ body {
 .hero_container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .hero_detail_container {
