@@ -34,7 +34,7 @@ img:hover {
 
 header h1 {
   font-family: "Roboto", sans-serif;
-  color: #ff00ff;
+  color: rgba(2, 56, 89, 35),
   margin: 12px auto;
   font-size: 2.2em;
   text-align: center;
@@ -71,11 +71,11 @@ nav a {
 }
 
 nav a:hover {
-  background: #ff00ff;
+  background: rgba(2, 56, 89, 35),
 }
 
 .btn {
-  background: #ff00ff;
+  /* background: #ff00ff; */
   color: #fff;
   padding: 6px;
   width: 70px;
