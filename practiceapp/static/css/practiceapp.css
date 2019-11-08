@@ -1,12 +1,15 @@
-.container {
-  width: 90%;
-  margin: 0 auto;
-  display: block;
+body {
   background-image: linear-gradient(
     to left,
     rgba(2, 56, 89, 35),
     rgba(4, 173, 191, 75)
   );
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
 .hero_container {
